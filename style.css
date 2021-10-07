@@ -44,6 +44,14 @@ p {
   text-align: center;
 }
 
+
+
+
+.navbar-brand {
+  font-family: 'Gideon Roman', cursive;
+  font-size: 25px;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -107,3 +115,25 @@ img-fluid {
   width: 100%;
   margin: 0 auto;
 }
+
+@media (max-width: 375px) {
+  h1 {
+    font-size: 45px;
+    /* padding-top: 15px; */
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  #contact a {
+    font-size: 20px;
+  }
+
+  /* .img-fluid {
+    display: none; */
+  }
+  
+
+
+
